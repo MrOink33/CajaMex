@@ -80,6 +80,9 @@ li ul li{
     flex-direction: column;
     align-content: center;
 }
+h2{
+    color: #f22333;
+}
 #maria{
     background-color: #ffffff;
     display: flex;
