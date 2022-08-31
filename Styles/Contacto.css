@@ -75,13 +75,13 @@ li ul li{
 /* Formulario */
 #Formulario{
     width: 100%;
-    background-color: #DDE3E3;
-    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(242,35,51,1) 100%);
     justify-content: center;
 }
 form{
     background-color: #ffffff;
-    margin: 20px;
+    margin: 0px 20px;
 }
 fieldset{
     padding: 20px;
@@ -146,7 +146,9 @@ footer div{
     /* Formulario */
     #Formulario{
     width: 100%;
-    background-color: #DDE3E3;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(242,35,51,1) 100%);
+    justify-content: center;
     display: flex;
     justify-content: center;
     }
@@ -213,7 +215,9 @@ footer div{
 
     /* Formulario */
     #Formulario{
-    background-color: #DDE3E3;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(242,35,51,1) 100%);
+    justify-content: center;
     display: flex;
     justify-content: center;}
     
