@@ -5,42 +5,59 @@
 }
 
 /* GRIDS AREAS */
-#grilla {
+/* #grilla {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "Encabezado Encabezado"
-    "Formulario Formulario"
+    "Productos Productos"
     "PieDePagina PieDePagina";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 22% auto 16%;
-}
-#Encabezado{
+    grid-template-rows: 20% auto 16%;
+} */
+/* #Encabezado{
     grid-area: Encabezado;
 }
 section{
-    grid-area: Formulario;
+    grid-area: Productos;
 }
 #PieDePagina {
     grid-area: PieDePagina;
-}
+} */
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 /* Encebezado */
-#Encabezado{
+/* #Encabezado{
     background-color: #f22333;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+}*/
+
+.navbar{
+    background-color: #f22333 !important;
+    width: 100% !important;
+}
+.dropdown-menu{
+    --bs-dropdown-bg: none !important;
+    --bs-dropdown-link-color: #ffffff !important;
+    border: none !important;
+}
+.nav-item{
+    font-size: 12px !important;
+}
+.dropdown-item{
+    font-size: 12px;
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 80px !important;
+    height: 80px !important;
 }
-#menu-principal ul li a{
+/* #menu-principal ul li a{
     text-decoration: none;
     color: #ffffff
 }
@@ -73,15 +90,15 @@ li ul li{
 }
 
 /* Formulario */
-#Formulario{
+/* #Formulario{
     width: 100%;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(242,35,51,1) 100%);
     justify-content: center;
-}
+}*/
 form{
     background-color: #ffffff;
-    margin: 0px 20px;
+    padding: 30px;
 }
 fieldset{
     padding: 20px;
@@ -146,6 +163,7 @@ footer div{
     /* Formulario */
     #Formulario{
     width: 100%;
+    height: cover;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(242,35,51,1) 100%);
     justify-content: center;
@@ -154,8 +172,7 @@ footer div{
     }
     form{
     background-color: #ffffff;
-    margin: 20px;
-    width: 70%;}
+    padding: 30px;}
     fieldset{
     padding: 20px;}
 
@@ -223,7 +240,7 @@ footer div{
     
     form{
     background-color: #ffffff;
-    margin: 20px;
+    margin: 30px;
     width: auto;}
     
     fieldset{

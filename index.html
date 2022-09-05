@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CajaMex</title>
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./Styles/index.css">
     <link
         rel="stylesheet"
@@ -14,7 +14,7 @@
 
 <body id="grilla">
 <!-- Header -->
-    <header id="Encabezado" class="border">
+    <!-- <header id="Encabezado" class="border">
         <div>
            <a href="index.html"><img class="logo animate__animated animate__tada" src="./Images/CajaMex Logo.png" alt=""></a> 
         </div>
@@ -32,32 +32,69 @@
                 <li><a href="./Pages/Contacto.html">Contacto</a></li>
             </ul>
         </div>       
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 col-12">
+        <div class="container-fluid">
+            <a href="index.html"><img class="logo animate__animated animate__tada" src="./Images/CajaMex Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/QuienesSomos.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/Ubicacion.html">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./Pages/Productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Pages/Productos.html"> Caja María</a></li>
+                  <li><a class="dropdown-item" href="./Pages/Productos.html">Caja Walterino</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
 
 <!-- Sección de productos  -->
-    <section id="Productos" class="border">
-        <div id="maria">
+<div class="container-fluid p-0">
+    <section id="Productos" class="row">
+        <div id="maria" class="col-12 col-md-5 col-xl-5">
             <h2>Caja María</h2>
             <a href="./Pages/Productos.html"><img class="producto" src="./Images/María 1.png" alt=""></a>
             <div>
-                <button>
+                <button type="button" class="btn btn-danger">
                     <a href="./Pages/Productos.html">$199</a>
                 </button>
             </div>  
         </div>
-        <div id="walterino">
+        <div id="walterino" class="col-12 col-md-5 col-xl-5">
             <h2>Caja Walterino</h2>
             <a href="./Pages/Productos.html"><img class="producto" src="./Images/Walterino 1.png" alt=""></a>
             <div>
-                <button>
+                <button type="button" class="btn btn-danger">
                     <a href="./Pages/Productos.html">$169</a>
                 </button>
             </div>
         </div>
     </section>
+</div>
+    
 
 <!-- Pie de página     -->
-    <footer id="PieDePagina" class="border">
+    <footer id="PieDePagina" class="border container-fluid p-0">
         <div>
             <ul>
                 <li><a href="Index.html">Terminos y condiciones</a></li>

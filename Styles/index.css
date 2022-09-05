@@ -5,16 +5,16 @@
 }
 
 /* GRIDS AREAS */
-#grilla {
+/* #grilla {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "Encabezado Encabezado"
     "Productos Productos"
     "PieDePagina PieDePagina";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20% auto 16%;
-}
-#Encabezado{
+} */
+/* #Encabezado{
     grid-area: Encabezado;
 }
 section{
@@ -22,30 +22,46 @@ section{
 }
 #PieDePagina {
     grid-area: PieDePagina;
-}
+} */
 
 a{
     text-decoration: none;
 }
 
 /* Encebezado */
-#Encabezado{
+/* #Encabezado{
     background-color: #f22333;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}*/
+
+.navbar{
+    background-color: #f22333 !important;
+    width: 100% !important;
+}
+.dropdown-menu{
+    --bs-dropdown-bg: none !important;
+    --bs-dropdown-link-color: #ffffff !important;
+    border: none !important;
+}
+.nav-item{
+    font-size: 12px !important;
+}
+.dropdown-item{
+    font-size: 12px;
 }
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 80px !important;
+    height: 80px !important;
 }
 #menu-principal ul li a{
     text-decoration: none;
     color: #ffffff
 }
-ul{
+/* ul{
     list-style-type: none;
     list-style: none;
     font-size: 0;
@@ -71,14 +87,11 @@ ul li:hover ul{
 li ul li{
     padding: 0px 15px;
     display: inline-block;
-}
+} */
 
 /* Productos */
 #Productos{
-    width: 100%;
     background-color: #DDE3E3;
-    display: flex;
-    flex-direction: column;
 }
 #maria{
     display: flex;
@@ -86,8 +99,8 @@ li ul li{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px 0px;
     border-radius: 30px;
 }
 #walterino{
@@ -96,8 +109,8 @@ li ul li{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px 0px;
     border-radius: 30px;
 }
 
@@ -112,20 +125,20 @@ li ul li{
     transform:scale(1.3,1.3);
 }
 
-#maria button{
+/* #maria button{
     background-color: #f22333;
     width: 100px;
     height: 40px;
     border-radius: 10px;
     border: none;
-}
-#walterino button{
+} */
+/* #walterino button{
     background-color: #f22333;
     width: 100px;
     height: 40px;
     border-radius: 10px;
     border: none;
-}
+} */
 #maria button a{
     color: #ffffff;
 }
@@ -136,7 +149,7 @@ li ul li{
 /* Pie de página */
 #PieDePagina{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     background-color: black;
     width: 100%;
@@ -154,9 +167,9 @@ footer div{
 
 /* Medidas de Tablet */
 @media (min-width: 768px) {
-    #grilla {
+    /* #grilla {
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         "Encabezado Encabezado"
         "Productos Productos"
         "PieDePagina PieDePagina";
@@ -170,7 +183,7 @@ footer div{
         grid-area: Productos;
     }
     #PieDePagina {
-        grid-area: PieDePagina;
+        grid-area: PieDePagina; */
     }
     /* Encabezado Tablet */
     #Encabezado{
@@ -190,13 +203,13 @@ footer div{
     }
 
     /* Productos Tablet */
-    #Productos{
+    /* #Productos{
         width: 100%;
         background-color: #DDE3E3;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
+    } */
     .producto{
         width: 250px;
         height: 250px;
@@ -221,14 +234,14 @@ footer div{
 
 /* Medidas Desktop */
 @media (min-width: 1024px) {
-    #grilla {
+    /* #grilla {
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
         "Encabezado Encabezado"
         "Productos Productos"
         "PieDePagina PieDePagina";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20% auto 16%;
+        grid-template-rows: 20% auto 16%; */
     }
     #Encabezado{
         grid-area: Encabezado;
