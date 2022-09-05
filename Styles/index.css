@@ -57,10 +57,10 @@ a{
     width: 80px !important;
     height: 80px !important;
 }
-#menu-principal ul li a{
+/* #menu-principal ul li a{
     text-decoration: none;
     color: #ffffff
-}
+} */
 /* ul{
     list-style-type: none;
     list-style: none;
@@ -183,8 +183,8 @@ footer div{
         grid-area: Productos;
     }
     #PieDePagina {
-        grid-area: PieDePagina; */
-    }
+        grid-area: PieDePagina;
+    } */
     /* Encabezado Tablet */
     #Encabezado{
         display: flex;
@@ -241,8 +241,8 @@ footer div{
         "Productos Productos"
         "PieDePagina PieDePagina";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 20% auto 16%; */
-    }
+        grid-template-rows: 20% auto 16%;
+    } */
     #Encabezado{
         grid-area: Encabezado;
     }
