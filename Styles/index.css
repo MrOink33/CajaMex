@@ -1,4 +1,4 @@
-a img{
+.product{
     width: 150px;
     height: 150px;
 }
@@ -17,14 +17,14 @@ a img{
 }
 /* Medidas de Tablet */
 @media (min-width: 768px) {
-    a img{
+    .product{
         width: 200px;
         height: 200px;
     }
 }
 /* Medidas Desktop */
 @media (min-width: 1024px) {
-    a img{
+    .product{
         width: 250px;
         height: 250px;
     }
