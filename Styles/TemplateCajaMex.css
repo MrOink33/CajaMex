@@ -4,12 +4,35 @@ Reseteo
     padding: 0px;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+}
+/* Medidas de Tablet */
+@media (min-width: 768px) {
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+}
+/* Medidas Desktop */
+@media (min-width: 1024px) {
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+.container{
+    z-index: 1;
+}
+.container-fluid{
+    z-index: 1;
 }
 .navbar{
     background-color: #f22333 !important;
     font-size: 1rem;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 .dropdown-menu{
     --bs-dropdown-bg: #f22333 !important;
@@ -20,14 +43,17 @@ Reseteo
     font-size: 0.8rem;
 }
 body{
-    background-color: #DDE3E3;
+    background-color:#ebebeb;
 }
 footer{
     background-color: black;
     color: #ffffff;
-    padding: 1rem;
+    padding: .5rem;
     font-size: 0.5rem;
     text-align: justify;
+    position: sticky;
+    bottom: 0px;
+    height: auto;
 }
 footer a{
     text-decoration: none;

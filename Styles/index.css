@@ -1,19 +1,31 @@
+.container-fluid{
+    z-index: 2;
+}
 .product{
     width: 150px;
     height: 150px;
+    transition: all 1s ease;
+}
+.product:hover{
+    transform: scale(1.4);
+    transition: all 1s ease;
 }
 .products{
     display: flex;
     justify-content: center;
 }
 .target{
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     margin: 20px;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 /* Medidas de Tablet */
 @media (min-width: 768px) {
