@@ -9,7 +9,7 @@ body {
   body .navbar {
     background-color: #F22333 !important;
     font-size: 1rem;
-    font-family: Rubik;
+    font-family: Rubik !important;
     position: sticky;
     top: 0px;
     z-index: 2; }

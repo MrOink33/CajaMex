@@ -1,0 +1,18 @@
+body{
+    footer{
+        background-color: $secondary-color;
+        font-family: $secondary-font-text;
+        color: $tertiary-color;
+        padding: .5rem;
+        font-size: 0.6rem;
+        text-align: justify;
+        position: sticky;
+        bottom: 0px;
+        height: auto;
+        z-index: 3;
+        a{
+            text-decoration: none;
+            color: $tertiary-color;
+        }
+    }
+}
