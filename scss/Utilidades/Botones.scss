@@ -1,0 +1,19 @@
+.btn{
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: none;
+}
+@mixin btn-style($background,$tipography, $font-text){
+    background-color: $background;
+    color: $tipography;
+    font-family: $font-text;
+} 
+.btn-primary{
+    @extend .btn;
+    @include btn-style(#f22333,#ffffff, Rokkitt)
+}
+.btn-secondary{
+    @extend .btn;
+    @include btn-style(#04724d,#ffffff, Rubik)
+}

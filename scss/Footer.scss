@@ -1,8 +1,8 @@
 body{
     footer{
-        background-color: $secondary-color;
-        font-family: $secondary-font-text;
-        color: $tertiary-color;
+        background-color: map-get($colors, secondary);
+        font-family: map-get($font-text, secondary);
+        color: map-get($colors, tertiary);
         padding: .5rem;
         font-size: 0.6rem;
         text-align: justify;
@@ -12,7 +12,7 @@ body{
         z-index: 3;
         a{
             text-decoration: none;
-            color: $tertiary-color;
+            color: map-get($colors, tertiary);
         }
     }
 }

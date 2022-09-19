@@ -1,10 +1,12 @@
-@import "Reseteo.scss";
-@import "Colors.scss";
-@import "Tipography.scss";
+@import "./Variables/Reseteo.scss";
+@import "./Variables/Colors.scss";
+@import "./Variables/Tipography.scss";
+@import "./Utilidades/Media-queries.scss";
+@import "./Utilidades/Target.scss";
+@import "./Utilidades/Botones.scss";
 @import "Header.scss";
 @import "Footer.scss";
 @import "index.scss";
 @import "QuienesSomos.scss";
 @import "Productos.scss";
-@import "Ubicación.scss";
 @import "Contacto.scss"

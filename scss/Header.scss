@@ -1,24 +1,12 @@
 body{
-    background-color: $tertiary-color;
+    background-color: map-get($colors, bk);
     .navbar{
-        background-color: $primary-color !important;
+        background-color: map-get($colors, primary) !important;
         font-size: 1rem;
-        font-family: $primary-font-text !important;
+        font-family: map-get($font-text, primary) !important;
         position: sticky;
         top: 0px;
         z-index: 2;
-        .logo{
-            width: 50px;
-            height: 50px;
-            @media (min-width: 768px) {
-                width: 80px;
-                height: 80px;
-            }
-            @media (min-width: 1024px) {
-                width: 100px;
-                height: 100px;
-            }
-        }
         .dropdown-menu{
             --bs-dropdown-bg: #f22333 !important;
             border: none !important;

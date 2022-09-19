@@ -1,24 +1,8 @@
 .row{
     form{
-        .btn-primary{
-            --bs-btn-color: #fff;
-            --bs-btn-bg: #f22333;
-            --bs-btn-border-color: #f22333;
-            --bs-btn-hover-color: #fff;
-            --bs-btn-hover-bg: #f22333;
-            --bs-btn-hover-border-color: #f22333;
-            --bs-btn-focus-shadow-rgb: 49,132,253;
-            --bs-btn-active-color: #fff;
-            --bs-btn-active-bg: #f22333;
-            --bs-btn-active-border-color: #f22333e;
-            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-            --bs-btn-disabled-color: #fff;
-            --bs-btn-disabled-bg: #f22333;
-            --bs-btn-disabled-border-color: #f22333;
-        }
         .form-check-input:checked{
-            background-color: #f22333;
-            border-color: #f22333;
+            background-color: #04724d;
+            border-color: #04724d;
         }
     }
 }
