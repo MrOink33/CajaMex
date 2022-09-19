@@ -123,3 +123,7 @@ body .target .row {
 .row form .form-check-input:checked {
   background-color: #04724d;
   border-color: #04724d; }
+.container h1{
+  text-align: center;
+  padding: 10px;
+}
