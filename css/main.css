@@ -58,6 +58,16 @@
   border-radius: 30px;
   border: 1px solid rgba(255, 255, 255, 0.18); }
 
+.shadow {
+  padding: 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18); }
+
 .btn, .btn-primary, .btn-secondary {
   border-radius: 10px;
   padding: 10px 20px;
@@ -77,17 +87,17 @@
 body {
   background-color: #ebebeb; }
   body .navbar {
-    background-color: #F22333 !important;
+    background-color: #F22333;
     font-size: 1rem;
-    font-family: Rubik !important;
+    font-family: Rubik;
     position: sticky;
     top: 0px;
     z-index: 2; }
     body .navbar .dropdown-menu {
-      --bs-dropdown-bg: #f22333 !important;
-      border: none !important; }
+      --bs-dropdown-bg: #f22333;
+      border: none; }
       body .navbar .dropdown-menu .dropdown-item {
-        --bs-dropdown-link-color: #ffffff !important;
+        --bs-dropdown-link-color: #ffffff;
         font-size: 0.8rem; }
 
 body footer {
@@ -120,10 +130,9 @@ body .target .row {
   display: flex;
   justify-content: center; }
 
-.row form .form-check-input:checked {
+body h1 {
+  text-align: center; }
+
+body section .row form .form-check-input:checked {
   background-color: #04724d;
   border-color: #04724d; }
-.container h1{
-  text-align: center;
-  padding: 10px;
-}

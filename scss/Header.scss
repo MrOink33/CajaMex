@@ -1,17 +1,17 @@
 body{
     background-color: map-get($colors, bk);
     .navbar{
-        background-color: map-get($colors, primary) !important;
+        background-color: map-get($colors, primary);
         font-size: 1rem;
-        font-family: map-get($font-text, primary) !important;
+        font-family: map-get($font-text, primary);
         position: sticky;
         top: 0px;
         z-index: 2;
         .dropdown-menu{
-            --bs-dropdown-bg: #f22333 !important;
-            border: none !important;
+            --bs-dropdown-bg: #f22333;
+            border: none;
             .dropdown-item{
-                --bs-dropdown-link-color: #ffffff !important;
+                --bs-dropdown-link-color: #ffffff;
                 font-size: 0.8rem;
             }
         }
