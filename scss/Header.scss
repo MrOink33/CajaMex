@@ -1,6 +1,10 @@
 body{
     background-color: map-get($colors, bk);
     .navbar{
+        .container-fluid{
+            display: flex;
+            justify-content: space-between;
+        }
         background-color: map-get($colors, primary);
         font-size: 1rem;
         font-family: map-get($font-text, primary);
